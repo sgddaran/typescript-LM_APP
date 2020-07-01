@@ -1,0 +1,24 @@
+{
+  "name": "loanmanager-ts",
+  "version": "1.0.0",
+  "description": "Loan dashboard - typescript",
+  "scripts": {
+    "build": "tsc",
+    "start": "lite-server -c ls-config.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dhamo",
+  "license": "ISC",
+  "keywords": [
+    "typeascript",
+    "decorators",
+    "dom"
+  ],
+  "devDependencies": {
+    "@types/node": "^14.0.13",
+    "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "chart.js": "^2.9.3"
+  }
+}
